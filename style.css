@@ -45,9 +45,14 @@ body{
     border: 2px dotted rgb(0, 255, 68);
 }
 @media screen and (max-width:580px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
     .container{
         border: 1px solid greenyellow;
-        height: 100vw;
+        height: 90vw;
+        width: 90vw;
     }
     .inner-container{
         font-size: larger;
